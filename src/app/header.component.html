@@ -1,4 +1,4 @@
-    <nav class="navbar navbar-default" role="navigation">
+    <nav class="navbar navbar-default navbar-inverse navbar-static-top" role="navigation">
         <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapse">
@@ -7,13 +7,13 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#featured">Wisdom <span class="subhead">Pet Medicine</span></a>
+                <a class="navbar-brand" href="#featured">Taxi <span class="subhead">Trip</span></a>
             </div>
             <!-- navbar-header -->
             <div class="collapse navbar-collapse" id="collapse">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#featured">Home</a></li>
-                    <li><a href="#mission">ShowCase</a></li>
+                    <li routerLinkActive="active"><a [routerLink]="['/home']">Home</a></li>
+                    <li routerLinkActive="active"><a [routerLink]="['/showcase']">ShowCase</a></li>
                     <li><a href="#services">Book</a></li>
                     <li><a href="#staff">Contact</a></li>
                     <li><a href="#testimonials">Testimonials</a></li>

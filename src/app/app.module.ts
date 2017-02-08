@@ -4,6 +4,7 @@ import { HeaderComponent } from './header.component';
 import {AppComponent} from './app.component';
 import {FormsModule,ReactiveFormsModule} from '@angular/forms';
 import { HttpModule} from '@angular/http';
+import {routing} from './app.routes';
 
 
 @NgModule({
@@ -12,7 +13,7 @@ import { HttpModule} from '@angular/http';
         				  HeaderComponent
         				 
                  ],
-  imports : [BrowserModule,FormsModule,ReactiveFormsModule,HttpModule],
+  imports : [BrowserModule,FormsModule,ReactiveFormsModule,HttpModule,routing],
   bootstrap : [AppComponent],
   providers: []
 
